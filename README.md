@@ -1,13 +1,22 @@
 # Multicore-Heat-Analysis
-A parallel application that determines the heat distribution in a space using synchronous iteration on a multicore.
+-------------------------
 
-We have 2-dimensional square space and simple boundary conditions (edge points have fixed temperatures). The objective is to find the temperature distribution within. The temperature of the interior depends upon the temperatures around it. We find the
-temperature distribution by dividing the area into a fine mesh of points, hi,j. The temperature at an inside point is calculated as the average of the temperatures of the four neighboring points, as shown in the following figure.
+# Objective
+-----------
+This program is a parallel application that determines the heat distribution in a space using synchronous iteration on a multicore.
 
-<img width="551" alt="Screen Shot 2023-05-01 at 12 43 10 AM" src="https://user-images.githubusercontent.com/79770461/235407752-83ac8e0b-f92a-4445-8c12-13f2b4abe3ea.png">
+# Visualizing the Problem
+-------------------------
 
-# Assumptions
-----------
+We have 2-dimensional square space and simple boundary conditions (edge points have fixed temperatures for this project). The objective is to find the temperature distribution within. The temperature of the interior depends upon the temperatures around it. We find the temperature distribution by dividing the area into a fine mesh of points, hi,j. 
+
+The temperature at an inside point is calculated as the average of the temperatures of the four neighboring points, as shown in the following figure:
+
+<img width="423" alt="Screen Shot 2023-05-02 at 1 17 55 AM" src="https://user-images.githubusercontent.com/79770461/235584720-87ef9a5f-4b6e-4238-a562-ab1d495c868c.png">
+
+
+# Assumptions/Notes
+-------------------
 We have (n x n) points (including edge points), (x,y) means row x and column y.
 
 The initial situation is as follows:
@@ -24,7 +33,7 @@ There will be a fixed number of iterations ITR. In each iteration, each point in
 The points at iteration i must use the neighbors’ values of iteration i, not the updated version. 
 
 # Compilation
-
+-------------
 You run the code with ./heatdist x y z k 
 - where x is the dimension of the 2D array
 - y is the number of iterations 
