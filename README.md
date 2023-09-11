@@ -1,9 +1,27 @@
-# Multicore-Heat-Analysis
+# Multicore-Heat-Project
 -------------------------
 
-# Objective
------------
-This program is a parallel application that determines the heat distribution in a space using synchronous iteration on a multicore.
+# Motivation
+-------------
+A multi-core computer has a single physical processor that contains multiple processing cores. Thus, all cores have the same resources: the same memory, cache, and I/O channels. A multi-core computer can increase its processing power by adding more cores to the processor. Each core is a separate processing unit that can execute instructions independently, allowing the processor to handle multiple tasks simultaneously. 
+
+Multi-core computers are more efficient in terms of:
+
+1. Power Consumption: They require less power to perform the same amount of work (one core has to do all of the work, with multiple cores we can distribute the workload among cores: each core can work at a lower frequency and voltage, resulting in reduced power consumption)
+
+2. Heat Generation: Each core operates at a lower frequency and voltage, reducing heat generation: and requires less cooling, resulting in lower energy consumption and quieter operation
+
+3. Less Physical Space Requirements: Multiple cores can be integrated into a single processor chip (multiple processors require additional physical space to accommodate separate chips).  Multi cores can be easily integrated into smaller devices such as laptops and smartphones
+
+4. Cost-Effective: They provide similar or better performance at a lower cost. They are easier and cheaper to manufacture, and require less power and cooling infrastructure, resulting in lower operating costs. 
+
+5. Versatility: used in consumer electronics and high-end servers so they are more accessible and cost-effective for multiple things
+
+
+# About 
+-------------------
+This program is a parallel application that determines the heat distribution in a space using synchronous iteration on a multi-core.
+
 
 # Visualizing the Problem
 -------------------------
