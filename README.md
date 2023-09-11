@@ -33,7 +33,7 @@ The temperature at an inside point is calculated as the average of the temperatu
 <img width="423" alt="Screen Shot 2023-05-02 at 1 17 55 AM" src="https://user-images.githubusercontent.com/79770461/235584720-87ef9a5f-4b6e-4238-a562-ab1d495c868c.png">
 
 
-# Assumptions/Notes
+# Assumptions | Notes
 -------------------
 We have (n x n) points (including edge points), (x,y) means row x and column y.
 
