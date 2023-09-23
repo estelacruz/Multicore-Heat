@@ -1,6 +1,9 @@
 # Multicore-Heat-Project
 -------------------------
 
+<img width="880" alt="Screen Shot 2023-09-18 at 8 13 41 PM" src="https://github.com/estelacruz/Multicore-Heat/assets/79770461/8f3712fd-3fdc-4dd8-ae4f-162d0c116b6b">
+
+
 # Motivation
 -------------
 A multi-core computer has a single physical processor that contains multiple processing cores. Thus, all cores have the same resources: the same memory, cache, and I/O channels. A multi-core computer can increase its processing power by adding more cores to the processor. Each core is a separate processing unit that can execute instructions independently, allowing the processor to handle multiple tasks simultaneously. 
