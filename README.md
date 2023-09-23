@@ -61,7 +61,9 @@ You run the code with ./heatdist x y z k
 
 
 
+# Overall Project Takeaway
 
+The parallel execution consistently takes less time than the sequential execution across all iterations, leading to a notable 1.5-2x speedup. This means that as the workload grows, our program becomes even more efficient. In practical terms, this translates to reduced processing times, enabling users to complete their tasks faster and more effectively. So, with this program, you can confidently handle larger workloads, knowing that it will run faster and deliver improved performance with increasing job size. Read more into this analysis in the MultiCoreHeat_Analysis.ipynb file.
 
 
 
